@@ -9,18 +9,25 @@ router.db._.id = "key";
 server.use(middlewares);
 server.use(json()); // Use the json body parser middleware
 
-server.get("/userdata", (req, res) => {
+server.get("/apidata", (req, res) => {
   const { key } = req.body;
-  const userData = router.db.get("userdata").find({ key }).value();
+  const apiData = router.db.get("apidata");
 
-  if (!key) {
-    return res.status(400).json({
-      error: `there is a missing request body!, please check`,
+  if (Object.keys(req.body).length === 0) {
+    return res.status(201).json({
+      data: apiData,
     });
   } else {
-    return res.status(200).json({
-      data: userData,
-    });
+    const selectedApiData = router.db.get("apidata").find({ key }).value();
+    if (!selectedApiData) {
+      return res.status(404).json({
+        error: "No user data found.",
+      });
+    } else {
+      return res.status(201).json({
+        data: selectedApiData,
+      });
+    }
   }
 });
 

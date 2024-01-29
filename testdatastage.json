@@ -6,6 +6,13 @@
       "pin": "131212",
       "payload": "{\n  \"delay_otp\": true,\n  \"fingerprint\": \"3A/zuPp4ARLJFUeUnvdazxDu7BYbeHMdV9sFR95bywNJ0xpJv0V6qhzr2W6uub0UkVc1WvnilCXmepTFM0suTf9U89/V4El1ds3iZcDJp8TBKC88jUVBiTLqZHwtiRSAoZb7TZgLaNomAaLGRK1XvzDn2/Hl7x772kjIoekLSO29qRO8F+pl9tDOLbCamgH6YWeTvUU23ozg1J3XDBtIaPc2r6AwdkfVMEjpCESVd4lf79w776AiSgpRVBG9kjkRTKo8loKBkNurqj92ZJDnt5xesTRrt4fiPDw29ggxVnkGQWZx3OO3QvYLLF5XWTKZLOqRG3WNVPv68fPx1VXaU4ASFwmo15snMJYvqiKMHYhoHxda5iaYv0GcQMW0m+Ld\",\n  \"mobile_number\": \"+62-84009707837\",\n  \"otp_code\": \"4567\",\n  \"password\": \"MTMxMjEy\",\n  \"platform\": \"ANDROID\",\n  \"tracker_id\": \"2769790\"\n}",
       "userId": 30299083
+    },
+    {
+      "key": "ui.stag.edc.phone15",
+      "phone_number": "84009707837",
+      "pin": "131212",
+      "payload": "{\n  \"delay_otp\": true,\n  \"fingerprint\": \"3A/zuPp4ARLJFUeUnvdazxDu7BYbeHMdV9sFR95bywNJ0xpJv0V6qhzr2W6uub0UkVc1WvnilCXmepTFM0suTf9U89/V4El1ds3iZcDJp8TBKC88jUVBiTLqZHwtiRSAoZb7TZgLaNomAaLGRK1XvzDn2/Hl7x772kjIoekLSO29qRO8F+pl9tDOLbCamgH6YWeTvUU23ozg1J3XDBtIaPc2r6AwdkfVMEjpCESVd4lf79w776AiSgpRVBG9kjkRTKo8loKBkNurqj92ZJDnt5xesTRrt4fiPDw29ggxVnkGQWZx3OO3QvYLLF5XWTKZLOqRG3WNVPv68fPx1VXaU4ASFwmo15snMJYvqiKMHYhoHxda5iaYv0GcQMW0m+Ld\",\n  \"mobile_number\": \"+62-84009707837\",\n  \"otp_code\": \"4567\",\n  \"password\": \"MTMxMjEy\",\n  \"platform\": \"ANDROID\",\n  \"tracker_id\": \"2769790\"\n}",
+      "userId": 30299083
     }
   ],
   "userdata": [
