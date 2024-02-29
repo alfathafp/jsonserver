@@ -4,8 +4,8 @@ const server = jsonServer.create();
 const router = jsonServer.router("testdatastage.json");
 const middlewares = jsonServer.defaults();
 router.db._.id = "key";
-// Set default middlewares
 
+// Set default middlewares
 server.use(middlewares);
 server.use(json()); // Use the json body parser middleware
 
